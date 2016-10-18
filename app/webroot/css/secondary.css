@@ -1,0 +1,55 @@
+#container{
+	height:auto;
+    width:975px;
+    margin:0 auto;
+}
+
+#header{overflow: hidden;height: 110px;}
+
+	#header .logo{background-image: url(../img/logo-mini-2.png);width:134px;height:99px;position: relative;left: 35px;}
+
+	#header .menu{
+		position: relative;
+		top: -80px;
+		left: 280px;
+	}
+
+		#header .menu a{display:block;float:left;height:49px;}
+		
+		#header .menu .btn-catalogo{background-image: url(../img/ui/btn-catalogo-mini.png);width:200px;}
+
+		#header .menu .btn-concurso{background-image: url(../img/ui/btn-concurso-mini.png);width:184px;}
+
+		#header .menu .btn-entradas{background-image: url(../img/ui/btn-entradas-mini.png);width:208px;}
+
+		#header .menu .btn-tips{background-image: url(../img/ui/btn-tips-mini.png);width:84px;}
+		
+		
+#content{overflow: hidden;width:100%;margin-top: 5px;}
+
+	#content .articulos{}
+
+		#content .articulos .articulo{float:left;margin-right: 10px;margin-bottom: 22px;}
+		
+			#content .articulos .articulo .img{
+				width: 312px;
+				height: 323px;
+				background-position:center center;
+				background-repeat:no-repeat;
+				border:1px solid #e4e4e4;
+				margin-bottom: 3px;
+			}
+		
+			#content .articulos .articulo p{
+				display:inline-block;
+				font-family: Arial;
+				font-size: 12px;
+				text-transform: uppercase;
+				color: #606060;
+			}
+			
+			#content .articulos .articulo .nombre{}
+			
+			#content .articulos .articulo .marca{font-weight:bold;font-style:italic;}
+			
+			#content .articulos .articulo .precio{font-weight:bold;}

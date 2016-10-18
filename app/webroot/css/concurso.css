@@ -1,0 +1,543 @@
+@font-face {
+    font-family: "Chyerg";
+    src: url(../fonts/chyerg.eot);
+}
+@font-face {
+    font-family: "Chyerg";
+    src: url(../fonts/chyerg.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Thurston";
+    src: url(../fonts/Thurston.eot);
+}
+@font-face {
+    font-family: "Thurston";
+    src: url(../fonts/Thurston.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Amatic-Bold";
+    src: url(../fonts/Amatic-Bold.eot);
+}
+@font-face {
+    font-family: "Amatic-Bold";
+    src: url(../fonts/Amatic-Bold.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "AmaticSC-Regular";
+    src: url(../fonts/AmaticSC-Regular.eot);
+}
+@font-face {
+    font-family: "AmaticSC-Regular";
+    src: url(../fonts/AmaticSC-Regular.ttf) format("truetype");
+}
+
+.concurso{
+	width:960px;
+	height:auto;
+    margin:0 auto;
+}
+
+	.concurso #header .logo{background-image: url(../img/logo-mini-2.png);width:134px;height:99px;position: relative;left: 35px;}
+
+	.concurso #header .menu{
+		position: relative;
+		top: -90px;
+		left: 280px;
+	}
+
+		.concurso #header .menu a{display:block;float:left;height:48px;}
+		
+		.concurso #header .menu .btn-catalogo{background-image: url(../img/ui/btn-catalogo-mini.png);width:200px;}
+
+		.concurso #header .menu .btn-concurso{background-image: url(../img/ui/btn-concurso-mini.png);width:184px;}
+
+		.concurso #header .menu .btn-entradas{background-image: url(../img/ui/btn-entradas-mini.png);width:208px;}
+
+		.concurso #header .menu .btn-tips{background-image: url(../img/ui/btn-tips-mini.png);width:84px;}
+	
+	/*Content jeans*/
+	.concurso.jeans #content{
+		height: 665px;
+		font-family: "Chyerg";
+		text-transform: uppercase;
+		color: black;
+	}
+	
+	/*Content looks*/
+	.concurso.looks #content{
+		height: 723px;
+		text-transform: uppercase;
+		color: black;
+		margin-top: 20px;
+	}
+	
+		.concurso.looks #content .left{position: relative;top: 315px;color:white;}
+	
+			.concurso.looks #content .left h1{
+				font-family: Amatic-Bold;
+				position: absolute;
+				top: 10px;
+				left: 20px;
+				font-size: 46px;
+				width: 336px;
+				line-height: 46px;
+				text-align: center;
+			}
+			
+			.concurso.looks #content .left h2{
+				font-family: "Thurston";
+				position: absolute;
+				top: 225px;
+				left: 20px;
+				font-size: 74px;
+			}
+	
+	/*Home jeans*/
+	.jeans.concurso-home #content{
+		background-image: url(../img/concurso/fondo-home.jpg);
+		background-position: center top;
+	}
+	
+	.jeans.concurso-home #content .desc{
+		position: relative;
+		top: 370px;
+		left: 20px;
+		width: 315px;
+		font-size: 28px;
+		text-align: center;
+		line-height: 29px;
+	}
+	
+	.jeans.concurso-home #content .btn-jugar{
+		background-image: url(../img/concurso/btn-jugar.png);
+		width: 281px;
+		height: 81px;
+		position: relative;
+		top: 405px;
+		left: 35px;
+	}
+	
+	.jeans.concurso-home #content #dar-chance{}
+	
+		.jeans.concurso-home #content #dar-chance .box-inviter{
+			position: absolute;
+			top: 533px;
+			left: 175px;
+			width: 325px;
+			height: 120px;
+			background-color: white;
+		}
+		
+			.jeans.concurso-home #content #dar-chance .box-inviter .img{
+				position: absolute;
+				top: 10px;
+				left: 10px;
+				width: 100px;
+				height: 100px;
+				background-size: contain;
+			}
+		
+			.jeans.concurso-home #content #dar-chance .box-inviter .nombre{
+				font-family: "Chyerg";
+				position: absolute;
+				left: 120px;
+				top: 16px;
+				font-size: 24px;
+			}
+		
+			.jeans.concurso-home #content #dar-chance .box-inviter .desc{
+				top: 40px;
+				left: 120px;
+				width: 205px;
+				text-align: left;
+				font-size: 18px;
+				line-height: 23px;
+			}
+	
+		.jeans.concurso-home #content #dar-chance .btn-chance{
+			background-image: url(../img/concurso/btn-dar-chance.png);
+			width:306px;
+			height:79px;
+			position: absolute;
+			top: 670px;
+			left: 190px;
+		}
+	
+	.jeans.concurso-home #content #gracias{display:none;}
+	
+		.jeans.concurso-home #content #gracias .desc{
+			top: 548px;
+			left: 170px;
+			width: 337px;
+			font-size: 30px;
+			line-height: 34px;
+		}
+		
+		.jeans.concurso-home #content #gracias .btn-jugar{top: 668px;left: 195px;}
+	
+	
+	/* Usuarios jeans */
+	.jeans.usuarios-add #content{
+		background-image: url(../img/concurso/fondo-juego.jpg);
+		background-position: center top;
+	}
+	
+	.jeans.usuarios-add #content .image-banda{
+		display:none;
+		position:absolute;
+		width: 288px;
+		height: 298px;
+		top: 250px;
+		left:760px;
+	}
+	
+	.jeans.usuarios-add #content .form-container{
+		position: absolute;
+		top: 176px;
+		left: 562px;
+		width: 536px;
+		height: 550px;
+		background-color: rgba(255,255,255,0.7);
+	}
+	
+		.jeans.usuarios-add #content .form-container .desc{
+			position: absolute;
+			top: 33px;
+			left: 64px;
+			font-size: 37px;
+			width: 404px;
+			line-height: 39px;
+			text-align: center;
+		}
+		
+		.jeans.usuarios-add #content .form-container .btn-enviar{
+			background-image: url(../img/concurso/btn-enviar.png);
+			width:158px;
+			height:46px;
+			position:absolute;
+			top: 459px;
+			left: 193px;
+		}
+		
+		.jeans.usuarios-add #content .form-container form{
+			position: absolute;
+			top: 139px;
+			right: 54px;
+			text-align: right;
+		}
+		
+			.jeans.usuarios-add #content .form-container form div{margin-bottom: 9px;font-size: 19px;}
+			
+			.jeans.usuarios-add #content .form-container form div .field{
+				width: 274px;
+				border: 0px;
+				height: 30px;
+				background-color: #079dd2;
+				margin-left: 10px;
+				padding-left: 10px;
+				color: white;
+				font-size: 17px;
+			}
+			
+				.jeans.usuarios-add #content .form-container form div select{
+					width: 284px!important;
+				}
+			
+			.jeans.usuarios-add #content .form-container form div p{
+				position: absolute;
+				left: -33px;
+				top: 254px;
+			}
+			
+			
+			
+			.jeans.usuarios-add #content .form-container form div .bandas{display: inline-block;}
+			
+				.jeans.usuarios-add #content .form-container form div .bandas .banda{
+					background-color: black;
+					width: 92px;
+					color: white;
+					float: left;
+					text-align: center;
+					margin: 2px;
+					font-size: 25px;
+					text-transform: initial;
+					line-height: 23px;
+				}
+				
+				.jeans.usuarios-add #content .form-container form div .bandas .banda.selected{color:#08b7f0;}	
+
+					#banda-0{padding-top: 6px;height: 52px;}
+					#banda-1{padding-top: 16px;height: 42px;}
+					#banda-2{padding-top: 6px;height: 52px;}
+	
+	/* Juego jeans */
+	.jeans.juegos-add #content{
+		background-image: url(../img/concurso/fondo-juego.jpg);
+		background-position: center top;
+	}
+	
+	.jeans.juegos-add #content .juego{	
+		position: absolute;
+		top: 176px;
+		left: 562px;
+		width: 536px;
+		height: 594px;
+		background-color: rgba(255,255,255,0.7);
+	}
+	
+		.jeans.juegos-add #content .juego .desc{
+			position: absolute;
+			top: 19px;
+			left: 56px;
+			width: 423px;
+			font-size: 30px;
+			text-align: center;
+			line-height: 30px;
+		}
+		
+		.jeans.juegos-add #content .juego .btn-jugar{
+			background-image: url(../img/concurso/btn-jugar-mini.png);
+			width:202px;
+			height:54px;
+			position:absolute;
+			top: 298px;
+			left: 171px;
+			z-index: 2;
+		}
+		
+		.jeans.juegos-add #content .juego .btn-jugar.denuevo{
+			background-image: url(../img/concurso/btn-jugar-denuevo.png);
+			width: 234px;
+			height: 54px;
+			display: none;
+			left: 150px;
+		}
+		
+		.jeans.juegos-add #content .juego .ganaste{
+			display:none;
+			position: absolute;
+			top: 207px;
+			left: 34px;
+			background-image: url(../img/concurso/txt-ganaste.png);
+			width: 471px;
+			height: 201px;
+		}
+		
+			.jeans.juegos-add #content .juego .ganaste .fb {
+				background-image: url(../img/concurso/btn-facebook.png);
+				width: 190px;
+				height: 55px;
+				position: absolute;
+				top: 163px;
+				left: 32px;
+			}
+			
+			.jeans.juegos-add #content .juego .ganaste .tw {
+				background-image: url(../img/concurso/btn-twitter.png);
+				width: 177px;
+				height: 54px;
+				position: absolute;
+				top: 165px;
+				left: 243px;
+			}
+
+		.jeans.juegos-add #content .juego .jeans-container{
+			background-color: #ace1f9;
+			width: 275px;
+			height: 465px;
+			position: absolute;
+			top: 101px;
+			left: 131px;		
+		}
+		
+			.jeans.juegos-add #content .juego .jeans-container .jean-fijo{
+				width:134px;
+				height:428px;
+				position:absolute;
+				top: 20px;
+				left: 6px;
+			}
+		
+			.jeans.juegos-add #content .juego .jeans-container .mitades{
+				overflow: hidden;
+				width: 134px;
+				height: 465px;
+				position: absolute;
+				top: 0px;
+				left: 125px;
+			}
+	
+				.jeans.juegos-add #content .juego .jeans-container .mitades .mitad{
+					width: 134px;
+					height: 428px;
+					margin-top: 20px;
+				}
+				
+	
+	/*Home Looks*/
+	.looks.concurso-home #content{background-image: url(../img/looks/fondo-home.jpg);}
+		
+		.looks.concurso-home #content .left .btn-votar{
+			background-image: url("../img/looks/btn-votar.png");
+			width: 316px;
+			height: 83px;
+			position: absolute;
+			top: 281px;
+			left: 25px;
+		}
+		
+		.looks.concurso-home #content .left .btn-chance{
+			background-image: url(../img/looks/btn-dar-chance.png);
+			width: 316px;
+			height: 83px;
+			position: absolute;
+			top: 270px;
+			left: 25px;
+		}
+		
+		.looks.concurso-home #content #dar-chance{}
+		
+			.looks.concurso-home #content #dar-chance .box-inviter{
+				position: relative;
+				top: 341px;
+				left: 35px;
+				width: 316px;
+				height: 176px;
+				background-color: #68c8f0;
+				border-bottom: 10px solid #00a2df;
+			}
+			
+				.looks.concurso-home #content #dar-chance .box-inviter .img{
+					position: absolute;
+					top: 16px;
+					left: 13px;
+					width: 110px;
+					height: 110px;
+					background-size: contain;
+				}
+
+				.looks.concurso-home #content #dar-chance .box-inviter .nombre{
+					font-family: "Amatic-Bold";
+					position: absolute;
+					left: 139px;
+					top: 26px;
+					font-size: 35px;
+				}
+				
+				.looks.concurso-home #content #dar-chance .box-inviter .desc{
+					font-family: Arial;
+					top: 62px;
+					position: absolute;
+					left: 135px;
+					width: 160px;
+					text-align: left;
+					font-size: 14px;
+					line-height: 18px;
+					font-weight: bold;
+				}
+				
+		.looks.concurso-home #content #gracias{display:none;}
+		
+		
+	/*Usuarios looks*/
+	.looks.usuarios-add #content{background-image: url(../img/looks/fondo-registro.jpg);	}
+	
+		.looks.usuarios-add #content .form-container{
+			position: relative;
+			top: 166px;
+			left: 542px;
+			display: inline-block;
+		}
+		
+			.looks.usuarios-add #content .form-container .desc{
+				font-family: "Thurston";
+				font-size: 43px;
+				width: 283px;
+				color: white;
+				line-height: 28px;
+			}
+			
+			.looks.usuarios-add #content .form-container .btn-enviar{
+				background-image: url(../img/looks/btn-enviar.png);
+				width: 170px;
+				height: 54px;
+				position: absolute;
+				top: 326px;
+				left: 3px;
+			}
+			
+			.looks.usuarios-add #content .form-container form{
+				margin-top: 12px;
+			}
+				
+				.looks.usuarios-add #content .form-container form div{margin-bottom: 10px;}
+			
+					.looks.usuarios-add #content .form-container form div .field{
+						height: 30px;
+						width: 275px;
+						border: 0px;
+						padding-left: 11px;
+						font-family: arial;
+						font-size: 14px;
+						color: #0d89c0;
+						font-weight: bold;
+					}
+					
+					.looks.usuarios-add #content .form-container form div select{
+						width: 286px!important;
+					}
+	
+	/*Juego looks*/
+	.looks.juegos-add #content{
+		background-image: url(../img/looks/fondo-juego.jpg);
+	}
+	
+	.looks.juegos-add #content.exito{background-image: url(../img/looks/fondo.jpg);}
+	
+		.looks.juegos-add #content .juego{
+			width: 864px;
+			margin: 0 auto;
+			position: relative;
+			top: 120px
+		}
+		
+			.looks.juegos-add #content .juego div{
+				width: 263px;
+				height: 263px;
+				float: left;
+				margin-right: 25px;
+				margin-bottom: 16px;
+			}
+			
+				.looks.juegos-add #content .juego div a{
+					display:none;
+					background-image: url(../img/looks/btn-votar-juego.png);
+					width: 170px;
+					height: 54px;
+					position: relative;
+					top: 108px;
+					left: 49px;
+				}
+				
+		.looks.juegos-add #content .finish{display:none;}
+		
+			.looks.juegos-add #content .finish h1{		
+				font-size: 64px;
+				line-height: 64px;
+				width: 365px;
+			}
+		
+			.looks.juegos-add #content .botones{
+				display:none;
+				position: absolute;
+				top: 245px;
+				left: 48px;
+			}
+			
+				.looks.juegos-add #content .botones .fb{background-image: url(../img/looks/btn-facebook.png);	width: 132px;height: 123px;float:left;margin-right: 19px;}
+				
+				.looks.juegos-add #content .botones .tw{background-image: url(../img/looks/btn-twitter.png);	width: 132px;height: 123px;float:left;}
